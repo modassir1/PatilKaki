@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero section */
+.hero {
+  background-color: #f0f0f0;
+  /* padding: 100px 0;  */
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+#slide-in-form {
+  position: fixed;
+  bottom: 0;
+  right: -300px; 
+  width: 300px;
+  height: auto; 
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+}
+
+#slide-in-form.open {
+  right: 0;
+}
+
+#signupForm {
+  margin-top: 20px;
+}
+
+#signupForm h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#signupForm input[type="text"],
+#signupForm input[type="email"],
+#signupForm button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#signupForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#signupForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Countdown section */
+.countdown {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#timer {
+  font-size: 36px;
+}
+
+/* Call to Action section */
+.cta {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cta h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+  background-color: #0056b3;
+}
